@@ -1,0 +1,47 @@
+{
+  "name": "store-model",
+  "version": "1.0.10",
+  "description": "simple store document model",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^1.2.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nsp": "^3.2.1",
+    "rimraf": "^2.6.2",
+    "yeps": "^1.1.1",
+    "yeps-error": "^1.3.1",
+    "yeps-server": "^1.1.2"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "bluebird": "^3.5.3",
+    "cuid": "^2.1.4",
+    "flat": "^4.1.0",
+    "json-stable-stringify": "^1.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactive-technology/store-model.git"
+  },
+  "author": "Benamar BELARBI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactive-technology/store-model/issues"
+  },
+  "homepage": "https://github.com/reactive-technology/store-model#readme"
+}
